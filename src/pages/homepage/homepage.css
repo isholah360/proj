@@ -6,7 +6,7 @@
 }
 
 .mainbg{
-    background-image: url(https://drive.google.com/file/d/15CPhx87UWeRWePQGaHF7pP30UbxRUTsm/view?usp=share_link);
+    background-image: url(assets/mg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -15,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(22, 21, 21) ;
 }
 .abt-display{
     display: hidden;

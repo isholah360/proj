@@ -24,7 +24,7 @@ function Blog() {
     <div className='blog-bg'>
         <div className="blog-head">
             <p>Check out my latest blog posts</p>
-            <p className="blogme">Portfolio</p>
+            <p className="blogme">Blogs</p>
             <hr className="horilinea"></hr>
         </div>
 
