@@ -22,7 +22,7 @@ function About() {
           
           <div className="about-details">
             <div className="myimg">
-              <img className="realimga" src="/assets/myimg.jpeg" alt="" />
+              <img className="realimga" src="assets/myimg.jpeg" alt="" />
             </div>
             <Content/>
         </div>
