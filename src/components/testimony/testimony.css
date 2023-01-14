@@ -1,0 +1,108 @@
+.tesgencard{
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+}
+.testcard{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.testycard{
+    max-width: 35rem;
+    max-height: 20rem;
+    background-color: rgb(22,22,22);
+    padding: 1.6rem 2.5rem;
+}
+.twoz{
+    display: none;
+}
+.onez{
+
+}
+.dotdiv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 2rem 0rem;
+}
+.dot{
+    height: 0.7rem;
+    width: 0.7rem;
+    border-style: solid;
+    border-radius: 50%;
+    background: white;
+}
+.third, .restree{
+    display: none;
+}
+.dot:hover{
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 50%;
+
+}
+.testimg{
+    width: 50%;
+    border-radius: 50%;
+}
+.img-name{
+    display: flex;
+    align-items: center;
+    gap: -15px;
+}
+.thename{
+  margin-bottom: 10px;
+}
+.quote{
+    font-size: 8rem;
+    margin-top: 4.5rem;
+    color: rgb(0,158,102);
+}
+.bothofthem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -3rem;
+}
+.main-testimony{
+    line-height: 1.7rem;
+    margin-top: -3rem;
+    color: lightgray;
+}
+
+.testimgs{
+  width: 20%;  
+  border-radius: 100%;
+}
+@media screen and (max-width: 480px) {
+
+    .testycard{
+       width: 90%;
+       max-width: 24rem; 
+       height: 100%;
+       max-height: 30rem;
+       margin-left: 1rem;
+       
+    }
+    .dot{
+        display: none;
+    }
+    .main-testimony{
+        font-size: .85rem;
+    }
+    .third{
+        display: block;
+    }
+    
+    .twoz{
+        display: none; 
+    }
+    .resone{
+        display: block;
+    }
+    .restwo, .retree{
+        display: none; 
+        
+    }
+}

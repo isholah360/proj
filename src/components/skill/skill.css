@@ -1,0 +1,27 @@
+.bottom{
+    width: 35rem;
+    height: .6rem;
+    background-color: grey;
+    position: relative;
+}
+.skiil-title{
+    margin-bottom: 1rem;
+}
+.bottom .top{
+    width: 85%;
+    height: .6rem;
+    background-color: rgb(0,158,102);;
+    position: absolute;
+}
+.complete{
+    margin-top: 5rem;
+}
+@media screen and (max-width: 480px) {
+    .bottom{
+        width: 90%;
+        height: .6rem;
+        background-color: grey;
+        position: relative;
+        margin: -1rem 1rem;
+    }
+}

@@ -1,0 +1,32 @@
+.title{
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    margin: 1.8rem 3rem;
+    position: absolute;
+}
+.year{
+    font-family: 'Questrial', sans-serif;
+    margin: 4rem 3rem;
+    position: absolute;
+    color: lightgray;
+}
+.contentz{
+    font-family: 'Questrial', sans-serif;
+    margin: 6rem 3rem;
+    position: absolute;
+    color: lightgray;
+    max-width: 28rem;
+    line-height: 1.3rem;
+    
+}
+@media screen and (max-width: 480px) {
+    .contentz{
+        font-family: 'Questrial', sans-serif;
+        margin: 6rem 3rem;
+        position: absolute;
+        color: lightgray;
+        /* min-width: 14rem; */
+        max-width: 25rem;
+        
+    } 
+}

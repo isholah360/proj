@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Questrial&display=swap');
+
+.firspage{
+    max-height: 100vh;
+}
+
+.mainbg{
+    background-image: url(C:\Users\HP\Desktop\vout\vouts\src\assets\mg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightskyblue;
+    max-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+
+}
+.abt-display{
+    display: hidden;
+}
+.about{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position:absolute ; 
+    top: 0;
+    z-index: 120;
+    display: none;
+}
+.show{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position:absolute ; 
+    top: 0;
+    z-index: 120;
+    display: flex; 
+}
+
+.close{
+    right: 3rem;
+    z-index: 135;
+    top: 1rem;
+    padding: 5px 20px;
+    position: absolute;
+    
+}
+@media screen and (max-width: 480px) {
+    .maainpages{
+       
+        max-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .mainbg{
+        background-position: center; 
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+   .social-media{
+    display: none;
+   }
+  }

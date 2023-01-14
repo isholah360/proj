@@ -1,0 +1,111 @@
+.nodes{
+    display: flex;
+    width: 100vw;
+    max-height: 22rem;
+    position: absolute;
+}
+.node1, .node2,.node3{
+   width: 30rem;
+   max-height: 21.5rem;
+   background-color: rgb(37, 37, 37);
+  
+}
+.node11, .node22,.node33{
+    width: 30rem;
+    height: 21.5rem;
+    background-color: rgba(37, 37, 37);
+    position: absolute;
+ }
+.node22,.node33{
+    margin-left: 30rem;
+ }
+.node33{
+    margin-left: 60rem;
+ }
+ 
+.bigger{
+    position: relative;
+    margin: 0rem 0;
+    z-index: 100;
+}
+.top-place{
+    position: absolute;
+    min-width: 100vh;
+
+}
+.nodez{
+    margin-top: 20rem;
+    display: flex;
+    width: 100vw;
+    max-height: 22rem;
+    position: absolute;
+    
+}
+.nods{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.underdog{
+    height:50%;
+    position: absolute;
+    z-index: 120;
+    background-color: rgba(37, 37, 37);
+    display: none;
+}
+.underdog2{
+    width: 50%;
+    height: 100%;
+    z-index: 120;
+    position: absolute;
+    background-color: rgba(37, 37, 37);
+    display: none;
+}
+.responsiveaninate{
+    display: flex; 
+    display: none;
+}
+.mice{
+    display: flex; 
+    display: none;
+}
+.last{
+ margin-left: 50%;   
+}
+@media screen and (max-width:480px) {
+    .nodes, .nods{
+        display:block;
+        overflow-y: hidden;
+    }
+
+    .top-place{
+        display: block;
+        overflow-y: hidden;
+       
+    }
+    .node11, .node22,.node33{
+        width: 10rem;
+        min-height: 10em;
+
+     }
+     .node1, .node2,.node3{
+        width: 10rem;
+        min-height: 10em;
+       
+     }
+     /* .underdog{
+        display: none;
+       
+     }
+     .responsiveaninate{
+        display: none;
+    }
+    .mice{
+        display: block;
+    }
+    .underdog2{
+        display: block;
+       
+     } */
+    
+}

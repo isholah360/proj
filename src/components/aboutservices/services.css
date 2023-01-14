@@ -1,0 +1,53 @@
+.servicevard{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.card{
+    max-width: 25rem;
+    height: 16rem;
+    background-color: rgb(22,22,22);
+    padding: 1.5rem;
+}
+.card:hover{
+  border-bottom: solid;  
+  border-color: rgb(0,158,102);
+  border-width: 7px;
+}
+.card .title{
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem;
+}
+.main-content{
+    line-height: 1.5rem;
+    margin: 3rem 0;
+}
+.servimg{
+    width: 17%;
+    filter: invert(44%) sepia(73%) 
+    saturate(5324%) hue-rotate(143deg) 
+    brightness(97%) contrast(102%);
+}
+@media screen and (max-width: 480px) {
+
+    .servicevard{
+        display: block;
+        margin: 2rem 2rem;
+    }
+    .card{
+        margin: 1rem 0rem;
+        min-width:10rem;
+    }
+    .card .title{
+        font-size: 1.5rem;
+        margin: 1rem -.2rem;
+    }
+    .servimg{
+        width: 12%;
+    }
+    .main-content{
+        
+        margin: 3.5rem 0;
+    }
+}

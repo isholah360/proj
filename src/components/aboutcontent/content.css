@@ -1,0 +1,173 @@
+.about-content{
+    width: 75%;
+    width: 42rem;
+}
+.whoim{
+    font-size: 1.5rem; 
+    color: rgb(0,158,102);
+    font-family: 'Questrial', sans-serif;
+}
+.namedetail{
+   font-size: 2rem; 
+   margin: 1rem 0;
+   font-weight: bold;
+   font-family: 'Mulish', sans-serif;
+   width: 42rem;
+}
+.detailcontent{
+    color: lightgrey;
+    font-size: 1.2rem; 
+    line-height: 1.8rem;
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 42rem;
+}
+.age-mail{
+    display: flex;
+    margin: 2rem 0rem;
+    justify-content: space-between;
+    font-family: 'Questrial', sans-serif;
+    margin-top: 3rem;
+}
+
+.detcolor{
+    color: lightgrey;
+    margin-left: 12px;
+    font-family: 'Questrial', sans-serif;
+}
+.mailcolor{
+    margin-left: 12px;
+    color: rgb(0,158,102);
+    font-family: 'Questrial', sans-serif;
+}
+.botomcolor{
+    margin: 1rem 0;
+}
+.fullmail{
+    margin-right: 5rem;
+}
+
+.horizontal{
+    width: 20rem;
+}
+.btn-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 42rem;
+}
+.btn-social button{
+    padding: 15px 2.5rem;
+    margin-right: 1rem;
+    font-size: .9rem;
+    border-style: none;
+    color: white;
+    border-radius: 22px;
+    background: rgb(0,158,102);
+}
+.social-medias{
+    gap: 1rem;
+    display: flex;
+}
+.mediaz{
+    width: 4.5%;
+    filter: invert(100%) sepia(100%) 
+    saturate(0%) hue-rotate(288deg) 
+    brightness(102%) contrast(102%);
+    
+}
+.outside{
+    background: rgb(16, 16, 16);
+    position: absolute;
+    
+}
+@media screen and (max-width: 480px) {
+
+    .aboutme{
+     font-size: 2.5rem;
+    } 
+    .horiline{
+     margin-right: 10rem;   
+     }
+   
+    .about-content{
+        max-width: 480px;
+        
+    }
+    .whoim{
+        margin-left: 4rem;
+        font-size: 1.2rem;
+    }
+    .namedetail{
+        font-size: 1.5rem;
+        margin-left: 4rem;
+        max-width: 25rem;
+        width: 90%;
+        max-width: 22rem;
+    }
+    .detailcontent{
+        font-size: .9rem;
+        margin-left: 4rem;
+        width: 90%;
+        max-width: 22rem;
+    }
+    .namehr{
+        width: 23.5rem;
+        color: gray;
+        margin: 3rem;
+    }
+    .age-mail{
+        display: block;
+        margin-left: 3rem;
+    }
+    .btn-social{
+        display: block;
+        margin-left: 3rem;
+    }
+    .horizontal{
+        width: 4rem;
+        margin: 3rem 0rem;
+        color: gray;
+    }
+    .buton{
+        border-style: none;
+    }
+    .social-medias{
+        margin: -3.5rem 5rem;
+    }
+    .mediaz{
+        width: 3.5%;
+        filter: invert(100%) sepia(100%) 
+        saturate(0%) hue-rotate(288deg) 
+        brightness(102%) contrast(102%);
+        
+    }
+    
+ }
+ @media screen and (max-width: 360px) {
+    .detailcontent{
+        font-size: .9rem;
+        width: 90%;
+        max-width: 16.5rem;
+        margin-left: 7rem;
+    }
+    .namedetail{
+        font-size: 1rem;
+        margin-left: 7rem;
+        max-width: 19rem;
+        width: 90%;
+        max-width: 16.5rem;
+    }
+    .whoim{
+        margin-left: 7rem;
+    }
+    .age-mail{
+        margin-left: 7rem;
+    }
+    .buton{
+        border-style: none;
+        margin-left: 3rem;
+    }
+ }

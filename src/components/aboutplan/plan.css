@@ -1,0 +1,57 @@
+.plcard{
+    height: 37rem;
+    max-width: 23rem;
+    background-color: rgb(22,22,22);
+    font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.standard{
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.amount{
+    font-size: 2rem;
+}
+.plcard button{
+    background: rgb(0,158,102);
+    padding: 12px 35px;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    margin: 1rem 0;
+}
+.aboutimg{
+    width: 17%;
+  
+    filter: invert(100%) sepia(100%) 
+    saturate(0%) hue-rotate(288deg) 
+    brightness(102%) contrast(102%);
+}
+
+@media screen and (max-width: 480px) {
+    .plcard{
+        height: 35rem;
+        max-width: 20rem;
+    }
+    .standard{
+        font-size: 2rem;
+    }
+    
+
+}
+@media screen and (max-width: 350px) {
+    .plcard{
+        height: 35rem;
+        max-width: 17rem;
+    }
+ 
+
+}

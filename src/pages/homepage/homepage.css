@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Questrial&display=swap');
+
+.firspage{
+    max-height: 100vh;
+}
+
+.mainbg{
+    background-image: url(C:\Users\HP\Desktop\newcode\our\src\assets\mg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.abt-display{
+    display: hidden;
+}
+.thehead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.about{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position:absolute ; 
+    top: 0;
+    z-index: 120;
+    display: none;
+}
+.show{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position:absolute ; 
+    top: 0;
+    z-index: 120;
+    display: flex; 
+}
+
+.close{
+    right: 3rem;
+    z-index: 135;
+    top: 1rem;
+    padding: 5px 20px;
+    position: absolute;
+    
+}
+.social-media{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ position: absolute;
+ right: -28rem;
+ bottom: 2rem;
+
+}
+.media{
+    width: 4%;
+    filter: invert(99%) sepia(0%) 
+    saturate(2%) hue-rotate(96deg) 
+    brightness(109%) contrast(100%);
+
+}
+.jap{
+    margin-top: -1.1rem;
+    margin-left: 3.5rem;
+}
+.writer{
+    font-size: 20rem;
+    position: absolute;
+    color: white;
+    z-index: 100;
+    font-family: 'Questrial', sans-serif;
+}
+.lang{
+    position: absolute;
+    flex-direction: column;
+    color: white;
+    left: 1rem;
+    rotate: 90deg;
+    gap: 1rem;
+    bottom: 5rem;}
+@media screen and (max-width: 480px) {
+    .maainpages{
+       
+        max-height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .mainbg{
+        background-position: center; 
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+   .social-media{
+    display: none;
+   }
+   .name{ 
+    font-size: 1rem;
+    text-align: center;
+    }
+  }
