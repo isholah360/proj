@@ -65,7 +65,7 @@ const Portfolio = ()=>{
                                         <div className="moreinfo">{image.more}</div>
                                    </div>
                                 </div>
-                                <img className="realimg" src={`/assets/${image.imageName}`} alt="" />
+                                <img className="realimg" src={`assets/${image.imageName}`} alt="" />
                             </div>)}
 
                         </div>
