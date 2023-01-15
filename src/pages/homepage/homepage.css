@@ -6,7 +6,7 @@
 }
 
 .mainbg{
-    background-image: url(assets/mg.jpg);
+    background-image: url(/assets/mg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
