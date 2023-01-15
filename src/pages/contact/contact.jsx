@@ -40,10 +40,10 @@ function Contact() {
                 <div className="compl-personal-info"> 
                   <div className="cont">Contact Info</div>
                     <div className="infologo">
-                      <img className="inforelogo" src="/assets/name.png" alt="" />
-                      <img className="inforelogo" src="/assets/home.png" alt="" />
-                      <img className="inforelogo" src="/assets/telephone.png" alt="" />
-                      <img className="inforelogo" src="/assets/email.png" alt="" />
+                      <img className="inforelogo" src="assets/name.png" alt="" />
+                      <img className="inforelogo" src="assets/home.png" alt="" />
+                      <img className="inforelogo" src="assets/telephone.png" alt="" />
+                      <img className="inforelogo" src="assets/email.png" alt="" />
                     </div>
                 </div>
                 <hr className="classic"/>
