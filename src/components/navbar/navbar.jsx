@@ -200,11 +200,11 @@ const Navbar = ()=>{
                     <Contact/>
                </div>
            </div>
-          <img className='himg' ref={hoverAbou} src="/assets/about.jpg" alt=""  />
-          <img className='himg' ref={hoverBlog} src="/assets/blog.jpeg" alt=""  />
-          <img className='himg' ref={hoverCont} src="/assets/contact.jpeg" alt=""  />
-          <img className='himg' ref={hoverResume} src="/assets/resume.jpeg" alt=""  />
-          <img className='himg' ref={hoverPort} src="/assets/port.jpg" alt=""  />
+          <img className='himg' ref={hoverAbou} src="assets/about.jpg" alt=""  />
+          <img className='himg' ref={hoverBlog} src="assets/blog.jpeg" alt=""  />
+          <img className='himg' ref={hoverCont} src="assets/contact.jpeg" alt=""  />
+          <img className='himg' ref={hoverResume} src="assets/resume.jpeg" alt=""  />
+          <img className='himg' ref={hoverPort} src="assets/port.jpg" alt=""  />
         </>
     )
 }
