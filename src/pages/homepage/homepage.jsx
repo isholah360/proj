@@ -53,7 +53,7 @@ function Homepage() {
         <div ref={bgimg} className="mainbg">
             
            <div className="thehead">
-              <div className="name"> Eshola Duro
+              <div className="name"> Ishola Duro
                     </div>     
               <Content/>  
            </div>
