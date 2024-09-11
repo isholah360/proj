@@ -1,7 +1,7 @@
 import React, {useEffect, useRef}  from 'react'
 import './animate.css'
 import gsap from 'gsap';
-import { Power3 } from 'gsap/src/index';
+import { Power3 } from 'gsap';
 
 const Animate = ()=>{
     

@@ -1,7 +1,7 @@
 import React,  {useEffect, useRef, useState} from "react";
 import './navbar.css'
 import gsap from 'gsap';
-import { Power3 } from 'gsap/src/index';
+import { Power3 } from 'gsap';
 import { About, Blog, Contact, Portfolio, Resume } from "../../pages";
 
 const Navbar = ()=>{

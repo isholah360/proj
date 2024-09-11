@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import './portfolio.css'
-import { Power3 } from 'gsap/src/index';
+import { Power3 } from 'gsap';
 import gsap from "gsap";
 
 const images =[
