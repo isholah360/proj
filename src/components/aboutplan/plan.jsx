@@ -1,15 +1,14 @@
-import React from 'react'
-import './plan.css'
+import React from "react";
+import "./plan.css";
 
 function Plan(props) {
-    const {naming, source, amount} = props;
+  const { naming, source, amount } = props;
   return (
     <div>
       <div className="plcard">
-
-        <img className='aboutimg' src={source} alt="" />
-        <p className='standard'>{naming}</p>
-        <p className='amount'>{amount}</p>
+        <img className="aboutimg" src={source} alt="" />
+        <p className="standard">{naming}</p>
+        <p className="amount">{amount}</p>
         <p>Mobile App Design</p>
         <p>Responsive Design</p>
         <p>Database Development</p>
@@ -19,7 +18,7 @@ function Plan(props) {
         <button>Get Started</button>
       </div>
     </div>
-  )
+  );
 }
 
-export default Plan
+export default Plan;

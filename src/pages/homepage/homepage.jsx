@@ -47,7 +47,7 @@ function Homepage() {
     <>
       <div className="maainpages">
         <div className="firspage">
-          <Navbar />
+          {/* <Navbar /> */}
           <Animate />
           <div ref={bgimg} className="mainbg">
             <div className="thehead">

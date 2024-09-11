@@ -1,7 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import './portfolio.css'
-import { Power3 } from 'gsap';
-import gsap from "gsap";
+
 
 const images =[
 { id: '1', imageName:"image1.jpeg ", tags: 'design', info: 'Web design'},
