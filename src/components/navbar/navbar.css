@@ -3,7 +3,7 @@
 
 
 .navbar{
-    color: #FFF;
+    color: #000;
     right: 3rem;
     position: absolute;
     z-index: 110;
@@ -143,7 +143,9 @@ margin: 5px 5px;
     position: absolute;
     z-index: 120;
 }
-
+ul li{
+    color: #000;
+}
 @media screen and (max-width: 480px) {
     
     .navbar{
